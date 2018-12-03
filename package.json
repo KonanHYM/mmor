@@ -1,0 +1,22 @@
+{
+  "name": "mmor",
+  "version": "1.0.0",
+  "description": "Online community for students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonanHYM/mmor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KonanHYM/mmor/issues"
+  },
+  "homepage": "https://github.com/KonanHYM/mmor#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
