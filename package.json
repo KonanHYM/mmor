@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/KonanHYM/mmor#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "@material-ui/core": "^4.3.3",
+    "express": "^4.16.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }

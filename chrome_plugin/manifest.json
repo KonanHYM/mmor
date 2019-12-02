@@ -1,0 +1,31 @@
+{
+	"manifest_version": 2,
+	"name": "企网团队工具集",
+	"version": "0.0.1",
+	"description": "企网团队插件 Series.01",
+	"author": "Kit",
+	"icons":
+	{
+		"48": "bank_icon.png",
+		"128": "bank_icon.png"
+	},
+	"browser_action":
+	{
+		"default_icon": "bank_icon.png",
+		"default_popup": "popup.html"
+	},
+	"content_scripts":
+	[
+		{
+	     "matches": ["https://www.baidu.com/*"],
+	     "js": ["content-script/content-script.js"]
+		 }
+	],
+	"web_accessible_resources":
+	[
+		"inject.js"
+	],
+	"background":{
+		"scripts":["background.js"]
+	}
+}
